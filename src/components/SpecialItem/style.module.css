@@ -1,0 +1,33 @@
+.item__box {
+    border: var(--gold_dark__color) 0.1rem dotted;
+    padding: 2rem 2rem 4rem 2rem;
+    margin-inline: 2rem;
+    text-align: center;
+    position: relative;
+    flex: 0 0 auto;
+    width: 20%;
+}
+
+.item__box::after {
+    content: '';
+    background: var(--gold_light__color);
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -9;
+}
+
+
+.item__box h4, .item__box p {
+    margin-block: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    .item__box {
+        width: 70%;
+        margin-block: 2rem;
+    }
+}

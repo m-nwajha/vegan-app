@@ -1,0 +1,40 @@
+.hero {
+    background: linear-gradient(180deg, rgba(16, 20, 24, 0.00) 0%, var(--dark__color) 95%);
+    position: relative;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 5rem;
+}
+
+.hero::after {
+    content: '';
+    background: url(/public/assets/bg_hero.png);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -9;
+}
+
+.hero__card {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+.hero__card h1 {
+    margin-bottom: 1rem;
+}
+
+.hero__card p {
+    margin-bottom: 2.7rem;
+}
+
+@media (max-width: 991.98px) {
+    .hero {
+        height: 80vh;
+    }
+}

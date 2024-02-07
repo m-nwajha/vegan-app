@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container__lg {
+    margin: 0 auto;
+    width: 95%;
+}
+
+@media (max-width: 991.98px) {
+    .container, .container__lg {
+        width: 97%;
+    }
+}

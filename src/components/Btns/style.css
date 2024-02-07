@@ -1,0 +1,27 @@
+.Btn1 {
+    background: transparent;
+    color: var(--light__color);
+    border: 2px solid var(--light__color);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    letter-spacing: 0.1rem;
+    align-items: center;
+    justify-content: center;
+    transition: 0.9s;
+}
+
+.Btn1:hover {
+    background: var(--gold_dark__color);
+}
+
+.btn1__md {
+    width: 177px;
+    height: 44px;
+}
+
+.btn1__lg {
+    width: 215px;
+    height: 55px;
+}
