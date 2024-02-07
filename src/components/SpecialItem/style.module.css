@@ -6,6 +6,7 @@
     position: relative;
     flex: 0 0 auto;
     width: 20%;
+    margin-bottom: 1rem;
 }
 
 .item__box::after {
@@ -29,5 +30,6 @@
     .item__box {
         width: 70%;
         margin-block: 2rem;
+        margin-inline: 0;
     }
 }

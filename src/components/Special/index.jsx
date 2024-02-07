@@ -17,8 +17,9 @@ class Special extends Component {
               <H3>{SPECIAL_DATA?.title}</H3>
             </div>
             <div className={styles.box__body}>
-              {SPECIAL_DATA.body.map(specialItem => (
+              {SPECIAL_DATA?.body.map(specialItem => (
                 <SpecialItem
+                  key={specialItem.key}
                   title={specialItem?.title}
                   imgSrc={specialItem?.imgSrc}>
                   {specialItem?.body}

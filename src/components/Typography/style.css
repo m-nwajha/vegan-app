@@ -32,6 +32,15 @@
     line-height: 28px;
 }
 
+.t__h5 {
+    font-family: var(--Roboto-font);
+    color: var(--white__color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+
 .t__body1 {
     color: var(--white__color);
     font-size: 18px;
