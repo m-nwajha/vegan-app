@@ -5,6 +5,7 @@ import AboutUs from '../../components/AboutUs';
 import Special from '../../components/Special';
 import FromKitchen from '../../components/FromKitchen';
 import OfferAds from '../../components/OfferAds';
+import CookingIngredients from '../../components/CookingIngredients';
 
 class HomePage extends Component {
   render() {
@@ -16,6 +17,7 @@ class HomePage extends Component {
         <Special />
         <FromKitchen />
         <OfferAds />
+        <CookingIngredients />
       </>
     );
   }
