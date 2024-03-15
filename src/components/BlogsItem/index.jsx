@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Body2, H5 } from '../Typography';
-import styles from './style.module.css';
 import { Btn2 } from '../Btns';
+import styles from './style.module.css';
 class BlogItem extends Component {
   render() {
     const { id, title, href, imgSrc, children } = this.props;

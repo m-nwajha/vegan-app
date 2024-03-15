@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Container from '../Container';
 import BlogItem from '../BlogsItem';
 import { H2, H3 } from '../Typography';
-import styles from './style.module.css';
 import BLOG_DATA from '../../mock/blogData';
+import styles from './style.module.css';
 class Blogs extends Component {
   render() {
     return (
