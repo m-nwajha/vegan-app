@@ -9,3 +9,13 @@ export const Btn1 = ({ btnHref, children, variant }) => {
     </a>
   );
 };
+
+export const Btn2 = ({ btnHref, children }) => {
+  return (
+    <a
+      href={btnHref}
+      className='btn2'>
+      {children}
+    </a>
+  );
+};

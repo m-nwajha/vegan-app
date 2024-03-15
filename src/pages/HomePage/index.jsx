@@ -6,6 +6,9 @@ import Special from '../../components/Special';
 import FromKitchen from '../../components/FromKitchen';
 import OfferAds from '../../components/OfferAds';
 import CookingIngredients from '../../components/CookingIngredients';
+import Counters from '../../components/Counters';
+import Reviews from '../../components/Reviews';
+import Blogs from '../../components/Blogs';
 
 class HomePage extends Component {
   render() {
@@ -18,6 +21,9 @@ class HomePage extends Component {
         <FromKitchen />
         <OfferAds />
         <CookingIngredients />
+        <Counters />
+        <Reviews />
+        <Blogs />
       </>
     );
   }

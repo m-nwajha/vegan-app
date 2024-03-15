@@ -25,3 +25,19 @@
     width: 215px;
     height: 55px;
 }
+
+.btn2 {
+    background: transparent;
+    color: var(--light__color);
+    border-bottom: 1px solid var(--gold_light__color);
+    padding-bottom: 0.2rem;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    transition: 0.9s;
+}
+
+.btn2:hover{
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.box {
+    padding-block: 1rem 5rem;
+}
+
+.box__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__header h2 {
+    margin-bottom: 0.8rem;
+}
+
+.box__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 2.7rem;
+}
+
+@media (max-width: 991.98px) {
+    .box__body {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem 0;
+    }
+}

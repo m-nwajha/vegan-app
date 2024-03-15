@@ -10,7 +10,7 @@ class OfferAds extends Component {
     return (
       <section
         className={styles.ads__section}
-        id='special'>
+        id='offer-ads'>
         <Container>
           <div className={styles.box}>
             <div className={styles.box__img}>
@@ -20,11 +20,11 @@ class OfferAds extends Component {
               />
             </div>
             <div className={styles.box__text}>
-              <H2>{titleA} <br /> {titleA2}</H2>
+              <H2>
+                {titleA} <br /> {titleA2}
+              </H2>
               <H3>{titleB}</H3>
-              <Btn1 btnHref={btnHref}>
-                {btnLabel}
-              </Btn1>
+              <Btn1 btnHref={btnHref}>{btnLabel}</Btn1>
             </div>
             <div className={styles.box__img}>
               <img

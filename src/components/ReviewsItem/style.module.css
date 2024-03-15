@@ -1,0 +1,33 @@
+.box__review {
+    background: var(--dark__color);
+    opacity: 0.9;
+    padding: 2rem 2rem 4rem 2rem;
+    margin-inline: 2rem;
+    text-align: center;
+    flex: 0 0 auto;
+    width: 22%;
+    margin-bottom: 1rem;
+}
+
+.header__box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header__box img {
+    height: 65.33px;
+    margin-inline: 1rem;
+}
+
+.box__title {
+    text-align: left;
+}
+
+.body__box {
+    padding-block: 1rem;
+}
+@media (max-width: 991.98px) {
+    .box__review {
+        width: 60%;
+    }
+}

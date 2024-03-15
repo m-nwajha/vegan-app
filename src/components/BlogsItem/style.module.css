@@ -1,0 +1,39 @@
+.box__blog {
+    flex: 0 0 auto;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__box img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.img__bottom {
+    order: 1;
+}
+
+.body__box {
+    background: var(--dark__color);
+    opacity: 0.9;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.body__box h5 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.body__box p {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 991.98px) {
+    .box__blog {
+        width: 80%;
+    }
+}

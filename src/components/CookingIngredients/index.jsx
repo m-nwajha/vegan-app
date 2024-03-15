@@ -10,7 +10,7 @@ class CookingIngredients extends Component {
       <Container>
         <section
           className={styles.row}
-          id='about-us'>
+          id='cooking-ingredients'>
           <div className={styles.col__left}>
             <H2>Cooking ingredients</H2>
             <H3>{COOKING_INGREDIENTS?.title}</H3>
