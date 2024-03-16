@@ -18,7 +18,7 @@
 .body__box {
     background: var(--dark__color);
     opacity: 0.9;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
     text-align: left;
 }
 

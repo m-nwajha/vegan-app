@@ -9,6 +9,7 @@ import CookingIngredients from '../../components/CookingIngredients';
 import Counters from '../../components/Counters';
 import Reviews from '../../components/Reviews';
 import Blogs from '../../components/Blogs';
+import Footer from '../../components/Footer';
 
 class HomePage extends Component {
   render() {
@@ -24,6 +25,7 @@ class HomePage extends Component {
         <Counters />
         <Reviews />
         <Blogs />
+        <Footer />
       </>
     );
   }
